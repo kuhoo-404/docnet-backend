@@ -1,4 +1,7 @@
-// controller/authController.js
-export const testAuth = (req, res) => {
-  res.send("Auth controller working ✅");
+export const registerUser = (req, res) => {
+  res.send("User registered successfully!");
+};
+
+export const loginUser = (req, res) => {
+  res.send("User logged in successfully!");
 };
